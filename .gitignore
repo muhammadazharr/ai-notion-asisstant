@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# WhatsApp Session (DANGER: DO NOT PUBLISH)
+auth_info_baileys/
+
+# Environment Variables (DANGER: DO NOT PUBLISH)
+.env
+
+# Debug/Test Scripts
+test-notion.js
+dump-notion-structure.js
+
+# OS Files
+.DS_Store

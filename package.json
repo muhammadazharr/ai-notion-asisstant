@@ -1,0 +1,28 @@
+{
+  "name": "ai-notion-assistant",
+  "version": "1.0.0",
+  "description": "WhatsApp bot that integrates Baileys, Gemini CLI, and Notion API.",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "notion",
+    "gemini",
+    "baileys"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.9",
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "pino": "^9.2.0",
+    "qrcode": "^1.5.4",
+    "qrcode-terminal": "^0.12.0"
+  }
+}

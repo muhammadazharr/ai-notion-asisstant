@@ -1,0 +1,6 @@
+services:
+  test:
+    image: alpine
+    env_file:
+      - path: .env
+        required: false

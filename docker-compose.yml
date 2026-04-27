@@ -1,0 +1,15 @@
+services:
+  bot:
+    build: .
+    container_name: ai-notion-assistant
+    restart: unless-stopped
+    env_file:
+      - path: .env
+        required: false
+    volumes:
+      # Mount the bot source code
+      - ./src:/app/src
+      # Persist WhatsApp authentication state
+      - ./auth_info_baileys:/app/auth_info_baileys
+      # Share Gemini login into container
+      - ~/.config:/root/.config
