@@ -1,15 +1,15 @@
-# 🤖 AI Notion Assistant (WhatsApp + Gemini)
+# AI Notion Assistant (WhatsApp + Gemini)
 
 A production-quality, beginner-friendly WhatsApp bot that helps you manage your Notion tasks and answers your questions using Google's Gemini AI!
 
-## ✨ Features
+## Features
 
 The bot strictly responds to these commands:
-- 📅 **/deadline** - Fetch your upcoming tasks and deadlines directly from Notion.
-- ➕ **/add <task>** - Add a new task to your Notion database.
-- 🧠 **/ask <question>** - Ask Gemini anything and get instant AI-powered responses.
+- **/deadline** - Fetch your upcoming tasks and deadlines directly from Notion.
+- **/add <task>** - Add a new task to your Notion database.
+- **/ask <question>** - Ask Gemini anything and get instant AI-powered responses.
 
-## 🐳 Install Docker (Required)
+## Install Docker (Required)
 
 Docker is a tool that allows you to run applications in isolated containers, meaning you don't have to worry about complex setups, installing Node.js, or handling missing dependencies on your computer!
 
@@ -36,7 +36,7 @@ If you see the version number, you're ready to proceed!
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 Zero confusion, minimal setup:
 
